@@ -11,12 +11,12 @@
 
 
 
-function addTwoNumbers(number1, number2){
+// function addTwoNumbers(number1, number2){
 
-    console.log(number1 + number2);
-}
+//     console.log(number1 + number2);
+// }
 
-addTwoNumbers("a","b");
+// addTwoNumbers("a","b");
 
 
 
@@ -94,3 +94,11 @@ addTwoNumbers("a","b");
 
 // console.log(returnSecondValue(myNewArray));
 // console.log(returnSecondValue([200, 400, 500, 1000]));
+
+const obj={
+    method: function(){
+        console.log("hello world")
+    }
+}
+
+obj.method()
