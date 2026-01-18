@@ -34,7 +34,7 @@
 //     const username = "hitesh"
 
 //     function two(){
-//         const website = "youtube"
+//         const website = "youtube"         the child function can get access to parent's variables but vice- versa not true.
 //         console.log(username);
 //     }
     // console.log(website);
@@ -62,14 +62,14 @@
 
 // console.log(addone(5))
 
-// function addone(num){
+// function addone(num){                this function declaration will work without any error. when function is accessed before declaration.
 //     return num + 1
 // }
 
 
 
 // addTwo(5)
-// const addTwo = function(num){
+// const addTwo = function(num){                  this function declaration will give error,
 //     return num + 2
 // }
 
@@ -104,8 +104,13 @@ user.welcomeMessage()
 // user.welcomeMessage()
 
 // console.log(this); this line will give output {} empty object bcoz current context of nodejs environment in an empty object.
+                      // browser ke andar jo global object h wo h window object.
 
 
+// function chai(){
+//     console.log(this);
+// }
+// chai()     when this is consoled under a function we get many values like global objects.
 
 
 // function chai(){
@@ -113,7 +118,7 @@ user.welcomeMessage()
 //     console.log(this.username);
 // }
 
-// chai()  here this keyword doesn't work same as with objects.
+// chai()  Here the output will be undefined,  this keyword doesn't work under functions as same as with objects.
 
 
 
@@ -122,6 +127,8 @@ user.welcomeMessage()
 //     let username = "hitesh"
 //     console.log(this.username);
 // }
+
+// Arrow function
 
 // const chai =  () => {
 //     let username = "hitesh"
