@@ -8,7 +8,6 @@
     console.log(`DB CONNECTED`);
 })();  // this is named IIFI
 
-
 //here semicolon is important to tell the function to stop the execution.
 
 // ( (name) => {
