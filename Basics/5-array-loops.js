@@ -1,3 +1,21 @@
+// for(let i=0; i<10; i++){
+//     const element=i;
+//     console.log(element);
+// }
+
+// let i=0;
+// while(i<10){
+//     console.log(i);
+//     i=i+2;
+// }
+
+// let score=1;
+
+// do{
+//     console.log(score);
+//     score++;
+// }while(score<=10)
+
 //some loops are made just for arrays
 
 // for of
