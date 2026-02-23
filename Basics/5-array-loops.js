@@ -132,7 +132,7 @@ for (const key in programming) {
 
 const coding = ["js", "ruby", "java", "python", "cpp"]
 
-// coding.forEach( function (val){
+// coding.forEach( function (val){              callback function ka nam nhi hota h.
 //     console.log(val);
 // } )
 
@@ -173,7 +173,7 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 
 
-//++++++++++++++++ Filter ++++++++++++++
+
 
 
 
@@ -189,11 +189,20 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 
 
+
+
+// ++++++++++++++ filter +++++++++++++++
+
+
+
 // const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 // const newNums = myNums.filter( (num) => {
 //     return num > 4
 // } )
+// console.log(newNums)
+
+
 
 // const newNums = []
 
